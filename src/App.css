@@ -1,3 +1,5 @@
+ @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 .App {
 	text-align: center;
 }
@@ -20,7 +22,7 @@
 .card {
 	border-radius: 2em;
 	padding: 0 1em;
-	background-color: #818181;
+	background-color: #f7c8c8;
 }
 
 .controller {
@@ -52,3 +54,11 @@
 	align-items: center;
 }
 
+.head{
+	text-align: center;
+	align-items: center;
+	color: #a70ea7;
+	font-family: 'Lobster', cursive;
+	word-spacing: 5px;
+	font-size: 25px;
+}

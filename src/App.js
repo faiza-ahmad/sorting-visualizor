@@ -20,7 +20,7 @@ class App extends Component {
 		colorKey: [],
 		colorSteps: [],
 		currentStep: 0,
-		count: 20,
+		count: 10,
 		delay: 500,
 		algorithm: 'Bubble Sort',
 		timeouts: [],
@@ -182,6 +182,10 @@ class App extends Component {
 
 		return (
 			<div className='app'>
+       <div className='head'>
+          <h1>Sorting visualizer</h1>
+          <p>Using Bubble Sort</p>
+          </div>
 				<div className='frame'>
 					<div className='barsDiv container card'>{bars}</div>
 				</div>
